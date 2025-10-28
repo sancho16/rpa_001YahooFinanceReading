@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+  "Type": "App",
+  "Id": "1MZMazhHEk2iWrWQZyyZNw",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/1MZMazhHEk2iWrWQZyyZNw",
+  "Created": "2025-08-05T03:35:20.7133844Z",
+  "Updated": "2025-08-05T03:35:20.7133844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

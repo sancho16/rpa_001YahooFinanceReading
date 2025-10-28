@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L5MCX57M7ka2lhev_OX2Kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="finance.yahoo.com" CVScreenId="b5a2d480-1db4-4aba-811f-828460e9a3c0" CvTextArea="960, 568, 55, 13" CvTextArgument="Markets" CvType="Text" DesignTimeRectangle="952, 566, 73, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Markets ' parentid='navigation-container' tag='DIV' /&gt;" Guid="a642e831-7827-4efa-8727-1e8ffadf9322" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Yahoo Finance - Stock Market Live, Quotes, Business &amp;amp; Finance News' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a67fe75ee83989f6f2d28378478e0321.png" xmlns="">07QhK1rWn8EKGGokmyZNOXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

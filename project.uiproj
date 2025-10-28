@@ -1,0 +1,6 @@
+{
+  "Name": "rpa_001YahooFinanceReading",
+  "ProjectType": "Process",
+  "Description": "Robotic Enterprise Framework",
+  "MainFile": "Main.xaml"
+}

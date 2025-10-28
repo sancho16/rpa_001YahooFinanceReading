@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Markets World Indexes, Futures, Bonds, C",
+  "Type": "Screen",
+  "Id": "la7BEuCB6Umu1gOfp814qg",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/la7BEuCB6Umu1gOfp814qg",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/8PShdp9pAESNJ3HUQFk7jA",
+  "Created": "2025-10-27T23:54:10.7037284Z",
+  "Updated": "2025-10-27T23:54:10.7037284Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
