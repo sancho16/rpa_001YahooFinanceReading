@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YwFeWrVAS0q0Rq0NPnUJAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com" CVScreenId="0ec30a1b-6f76-48e7-8c6a-5363d17c9e8a" DesignTimeRectangle="86, 301, 96, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl class='truncate' parentid='stage-slideover-sidebar' tag='DIV' /&gt;" Guid="784e9c3f-58b6-4f8c-8e09-74111be6c8d6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="278a7e28b1a46479d57dcce94dbaa9f7.png" xmlns="">0jFnc_DGk5Eigmxy8ZvIxdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

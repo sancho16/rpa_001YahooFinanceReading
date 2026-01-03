@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pPVEz_yuR0S-r5XVO7L0qQ" Reference="X6w18xFiuUeCo5R_BdYMOQ/rLhj78DF9UmrSvryM5bmng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com" CVScreenId="259a86c0-970e-48a0-8c23-4e5d0cf3587d" CvTextArea="942, 825, 195, 22" CvTextArgument="Add photos &amp; files" CvType="Text" DesignTimeRectangle="946, 821, 192, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Add photos &amp;amp; files' class='truncate' tag='DIV' /&gt;" Guid="372a2f33-5442-4d1e-8557-7d2b549ab5cb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9dec5898e5de3b26a7c877657f89b831.png" xmlns="">0ctG2d9zqI069b-ZSb553KA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

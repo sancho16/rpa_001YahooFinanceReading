@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Instagram • Messages",
+  "Type": "Screen",
+  "Id": "MKVbyIPtnkO-QvK-z87JlQ",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/MKVbyIPtnkO-QvK-z87JlQ",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/2L5YvwhfaEy6Qo6qDpNgVg",
+  "Created": "2026-01-03T05:15:55.9900597Z",
+  "Updated": "2026-01-03T05:15:55.9900597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

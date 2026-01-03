@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Conversation information",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "WvTBrn_8q0y-o8u1QvxluQ",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/WvTBrn_8q0y-o8u1QvxluQ",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/MKVbyIPtnkO-QvK-z87JlQ",
+  "Created": "2026-01-03T05:40:53.1335776Z",
+  "Updated": "2026-01-03T05:40:53.1335776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

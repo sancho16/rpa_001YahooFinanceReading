@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IeSNKVVkw0G08OG5VGF-5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com" CVScreenId="582276a8-094f-413f-afe1-56f40dfae4af" CvElementArea="443, 1127, 851, 65" CvType="InputBox" DesignTimeRectangle="1243, 1141, 39, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='composer-submit-button' tag='BUTTON' /&gt;" Guid="11cb6fd2-abbb-4edd-a1a4-4a43283a4597" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2c6ec839f28bc01f3285e7ed3b86c8fa.png" xmlns="">0ZrTTrZrXYEqPWxytyB-Bag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

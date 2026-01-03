@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New chat",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "nVl180Ml4ECgmxzrf0mNpg",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/nVl180Ml4ECgmxzrf0mNpg",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/KACo3Tv2RE-Gi9p3N0Z5yg",
+  "Created": "2025-10-28T04:41:13.3677839Z",
+  "Updated": "2025-10-28T04:41:13.3677839Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

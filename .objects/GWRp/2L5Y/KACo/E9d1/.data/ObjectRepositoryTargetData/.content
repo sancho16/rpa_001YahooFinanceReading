@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="719YuvyFoE-F0s9Wc-zLpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com" CVScreenId="2e7f3733-995b-4915-a3bd-3c88a56063ec" CvElementArea="34, 627, 699, 64" CvType="InputBox" DesignTimeRectangle="49, 641, 40, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl id='composer-plus-btn' tag='BUTTON' /&gt;" Guid="86283067-c17c-4e67-b7e1-0460458eaa87" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2e7f3733-995b-4915-a3bd-3c88a56063ec" CvElementArea="34, 627, 699, 64" CvType="InputBox" DesignTimeRectangle="96, 647, 534, 26" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="e769254d-1765-49dc-9130-27d793d39364" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40f12ee9494b666f7a6b25d5e25b8c62.png" xmlns="">0ibRfQfrF0ECXNooe9rIRgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
