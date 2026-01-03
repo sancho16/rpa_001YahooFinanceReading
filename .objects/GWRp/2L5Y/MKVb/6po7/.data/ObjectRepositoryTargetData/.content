@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tvY-9LGPAEOpniwkZN0gYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="instagram.com/direct/t/109418523787181" CVScreenId="385611f9-8832-48dd-8d9a-cda2c9eebd20" CvTextArea="3276, 2033, 122, 22" CvTextArgument="Delete chat" CvType="Text" DesignTimeRectangle="3277, 2030, 120, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Delete chat' aria-role='button' tag='DIV' /&gt;" Guid="5d477dc0-53e6-4d60-991a-77cd4f41887d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Instagram • Messages' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="133e0ddbd94c271a535d84cd6252fd6b.png" xmlns="">0yGBZ2P3-X0ykJsQHDiw2eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

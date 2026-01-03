@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w5N2cnEm_E6GyFSngBjaOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="instagram.com/direct/t/109418523787181" DesignTimeRectangle="1500, 999, 840, 72" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Delete' tag='BUTTON' /&gt;" Guid="4e2bfede-f1b5-4df3-bcc8-dd1e09dac751" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Instagram • Messages' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="47f6c0d0491beb2637aebd33200417f2.png" xmlns="">0uN1mysWLR0-lyXsKvCOIUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

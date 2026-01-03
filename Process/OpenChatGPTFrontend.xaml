@@ -32,8 +32,6 @@
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Activities</x:String>
@@ -48,6 +46,8 @@
       <x:String>System.Linq.Expressions</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -122,7 +122,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="OpenChatGPTFrontend" sap:VirtualizedContainerService.HintSize="904.6666666666666,1484" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenChatGPTFrontend" sap:VirtualizedContainerService.HintSize="2032,4028" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Image" Name="img" />
       <Variable x:TypeArguments="x:String" Name="strPathGen" />
@@ -136,12 +136,12 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="KillAllProcesses - Invoke Workflow File (Framework\KillAllProcesses.xaml)" sap:VirtualizedContainerService.HintSize="484,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\KillAllProcesses.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="KillAllProcesses - Invoke Workflow File (Framework\KillAllProcesses.xaml)" sap:VirtualizedContainerService.HintSize="546.6666666666666,239.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\KillAllProcesses.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="s:String[]" x:Key="in_AppsToKill">[{"msedge"}]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <Assign sap:VirtualizedContainerService.HintSize="484,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="546.6666666666666,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[strPathGen]</OutArgument>
       </Assign.To>
@@ -149,8 +149,8 @@
         <InArgument x:TypeArguments="x:String">[Path.Combine(Path.GetTempPath, $"capture_{Now:yyyyMMdd_HHmmss}.png")]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:SaveImage DisplayName="Save Image" FileName="[Path.Combine(Path.GetTempPath, $&quot;capture_{Now:yyyyMMdd_HHmmss}.png&quot;)]" sap:VirtualizedContainerService.HintSize="484,169.33333333333334" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[in_imageChartYahoo]" />
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Edge ChatGPT" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V2" WindowResize="Maximize">
+    <ui:SaveImage DisplayName="Save Image" FileName="[Path.Combine(Path.GetTempPath, $&quot;capture_{Now:yyyyMMdd_HHmmss}.png&quot;)]" sap:VirtualizedContainerService.HintSize="546.6666666666666,169.33333333333334" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[in_imageChartYahoo]" />
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Edge ChatGPT" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="546.6666666666666,1574" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -161,14 +161,14 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="511.3333333333333,1247.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512.6666666666666,1278.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="477.3333333333333,210.66666666666666" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.6666666666667,214.66666666666666" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
               <ui:MultipleAssign.AssignOperations>
                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -204,7 +204,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:MultipleAssign>
-            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'New chat'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="477.3333333333333,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'New chat'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="0ec30a1b-6f76-48e7-8c6a-5363d17c9e8a" ContentHash="YwFeWrVAS0q0Rq0NPnUJAw" DesignTimeRectangle="86, 301, 96, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl class='truncate' parentid='stage-slideover-sidebar' tag='DIV' /&gt;" Guid="784e9c3f-58b6-4f8c-8e09-74111be6c8d6" InformativeScreenshot="278a7e28b1a46479d57dcce94dbaa9f7.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/nVl180Ml4ECgmxzrf0mNpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -219,7 +219,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'P'" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="477.3333333333333,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="WindowMessages" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Text="[&quot;Based on the attached image and that the company &quot;+strSymbolCompany+&quot; is showing a current price &quot;+strPrice+&quot; with the change porcentage of &quot;+strChangePorc+&quot;. What do you thing is hapenning with this company?&quot;]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'P'" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,300" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="WindowMessages" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Text="[&quot;Based on the attached image and that the company &quot;+strSymbolCompany+&quot; is showing a current price &quot;+strPrice+&quot; with the change porcentage of &quot;+strChangePorc+&quot;. What do you thing is hapenning with this company?&quot;]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="c6b3c08e-4338-4042-955c-8cbb9283ab76" ContentHash="AEo8ioo6nUOzVdxDuwhZig" CvElementArea="864, 749, 1280, 97" CvType="InputBox" DesignTimeRectangle="958, 779, 1027, 40" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="2d089d49-40fc-4de1-9051-339a1e981bd6" InformativeScreenshot="bc2ab23f7fd42a4f48a4a90133dcf3bf.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/1cRpd9jY2UCBwj4r2sfE-A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
@@ -234,11 +234,11 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-plus-btn(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="477.3333333333333,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-plus-btn(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="2e7f3733-995b-4915-a3bd-3c88a56063ec" ContentHash="719YuvyFoE-F0s9Wc-zLpw" CvElementArea="34, 627, 699, 64" CvType="InputBox" DesignTimeRectangle="49, 641, 40, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl id='composer-plus-btn' tag='BUTTON' /&gt;" Guid="86283067-c17c-4e67-b7e1-0460458eaa87" InformativeScreenshot="40f12ee9494b666f7a6b25d5e25b8c62.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/E9d1YW-kvUyDBrwSFLN2RQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="2e7f3733-995b-4915-a3bd-3c88a56063ec" CvElementArea="34, 627, 699, 64" CvType="InputBox" DesignTimeRectangle="96, 647, 534, 26" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="e769254d-1765-49dc-9130-27d793d39364" SearchSteps="Selector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -255,7 +255,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-plus-btn'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="477.3333333333333,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-plus-btn'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,228" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="78687dda-0b08-4347-a68a-7520ef97e2ae" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="259a86c0-970e-48a0-8c23-4e5d0cf3587d" ContentHash="pPVEz_yuR0S-r5XVO7L0qQ" CvTextArea="942, 825, 195, 22" CvTextArgument="Add photos &amp; files" CvType="Text" DesignTimeRectangle="946, 821, 192, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Add photos &amp;amp; files' class='truncate' tag='DIV' /&gt;" Guid="372a2f33-5442-4d1e-8557-7d2b549ab5cb" InformativeScreenshot="9dec5898e5de3b26a7c877657f89b831.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/rLhj78DF9UmrSvryM5bmng" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -278,25 +278,25 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ChatGPT(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" OpenMode="IfNotOpen" ScopeGuid="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ChatGPT(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="546.6666666666666,1005.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" OpenMode="IfNotOpen" ScopeGuid="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,638.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,658" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="WindowMessages" ScopeIdentifier="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Text="[strPathGen]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,300" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="WindowMessages" ScopeIdentifier="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Text="[strPathGen]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="51be0380-4b24-494d-9e22-a6d723b39f5e" ContentHash="vgHGWl_2qEaqCjDVyZbLGQ" CvElementArea="196, 444, 425, 26" CvType="InputBox" DesignTimeRectangle="201, 450, 399, 15" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="7bfd862f-21a5-4534-b84d-fea222948d75" ImageBase64="" InformativeScreenshot="943811742bb4e1b24370a88042fb7aff.png" IsResponsive="True" Reference="X6w18xFiuUeCo5R_BdYMOQ/LsOqOIyIu067_VwV3bo57A" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -317,7 +317,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SpecialKey="True">
+            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="416,175.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SpecialKey="True">
               <ui:SendHotkey.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="5ab52695-6242-4b53-8456-bec83c533a04">
                   <ui:Target.TimeoutMS>
@@ -329,7 +329,7 @@
                 </ui:Target>
               </ui:SendHotkey.Target>
             </ui:SendHotkey>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,112" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Finished &quot;+strSymbolCompany]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Finished &quot;+strSymbolCompany]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -338,24 +338,24 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ChatGPT(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,655.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ChatGPT(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="546.6666666666666,672.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,404" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,417.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-submit-…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-submit-…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eba1c9f0-6f5d-4f27-8cc8-fee79da14ea2" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="chatgpt.com" CVScreenId="582276a8-094f-413f-afe1-56f40dfae4af" ContentHash="IeSNKVVkw0G08OG5VGF-5A" CvElementArea="443, 1127, 851, 65" CvType="InputBox" DesignTimeRectangle="1243, 1141, 39, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='composer-submit-button' tag='BUTTON' /&gt;" Guid="11cb6fd2-abbb-4edd-a1a4-4a43283a4597" InformativeScreenshot="2c6ec839f28bc01f3285e7ed3b86c8fa.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/oF1Ql550cE-1Wk0y0IWEgA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -370,7 +370,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,112" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;Finished &quot;+strSymbolCompany]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;Finished &quot;+strSymbolCompany]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
