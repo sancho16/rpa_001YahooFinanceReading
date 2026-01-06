@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Following",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "uJVD5Xx6ekySgDeoVL2-Pg",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/uJVD5Xx6ekySgDeoVL2-Pg",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/8U1pMQkS10O9xyr0itZjBA",
+  "Created": "2026-01-06T01:47:10.8463043Z",
+  "Updated": "2026-01-06T01:48:13.5403788Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

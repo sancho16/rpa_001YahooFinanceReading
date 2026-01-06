@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_8I1g5Zo00q9JtZyYTXaXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="instagram.com/osjulian77701/following" CVScreenId="75220969-6818-448b-bc28-3d8a1ff2e8f3" CvTextArea="1872, 1109, 93, 19" CvTextArgument="Unfollow" CvType="Text" DesignTimeRectangle="1500, 1081, 840, 72" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Unfollow' tag='BUTTON' /&gt;" Guid="5a345884-2427-4d88-ae74-6c34bb400da3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(1) Instagram' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1b379495b7d17cbda41ad98592fa8240.png" xmlns="">0f3_AjAcmVUW_EZjpUpNt1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Following",
+  "Type": "Screen",
+  "Id": "8U1pMQkS10O9xyr0itZjBA",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/8U1pMQkS10O9xyr0itZjBA",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/2L5YvwhfaEy6Qo6qDpNgVg",
+  "Created": "2026-01-06T01:44:37.2906231Z",
+  "Updated": "2026-01-06T01:44:37.2906231Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

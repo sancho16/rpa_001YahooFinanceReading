@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Unfolow",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "WvTBrn_8q0y-o8u1QvxluQ",
+  "Reference": "X6w18xFiuUeCo5R_BdYMOQ/WvTBrn_8q0y-o8u1QvxluQ",
+  "ParentRef": "X6w18xFiuUeCo5R_BdYMOQ/8U1pMQkS10O9xyr0itZjBA",
+  "Created": "2026-01-06T01:49:13.7471142Z",
+  "Updated": "2026-01-06T01:49:13.7471142Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

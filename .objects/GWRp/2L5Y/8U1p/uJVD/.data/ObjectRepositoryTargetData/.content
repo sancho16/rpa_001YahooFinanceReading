@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xCPaO6bDzk-9lULHjiP_FA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="instagram.com/osjulian77701/following" CVScreenId="3c66a4d5-2eb4-4bea-a791-84ff4af0627f" CvElementArea="2136, 940, 158, 54" CvTextArea="2168, 957, 94, 25" CvTextArgument="Following" CvType="Button" DesignTimeRectangle="2170, 954, 93, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Following' type='' tag='DIV' class='_ap3a _aaco _aacw _aad6 _aade' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Following' /&gt;" Guid="c96cf587-cd5c-4459-81d1-b6ad0175d917" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(1) Instagram' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3c66a4d5-2eb4-4bea-a791-84ff4af0627f" CvElementArea="2136, 940, 158, 54" CvTextArea="2168, 957, 94, 25" CvTextArgument="Following" CvType="Button" DesignTimeRectangle="2140, 943, 153, 48" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Following' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Following' tag='BUTTON' type='button' class=' _aswp _aswr _aswv _asw_ _asx2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Following' /&gt;" Guid="f56bd42d-2fad-4d5e-a5e1-2a7fec549170" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="03f38388750a7cab2153902075f1febd.png" xmlns="">0tu70iYNUHUOZKLauV3jv2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

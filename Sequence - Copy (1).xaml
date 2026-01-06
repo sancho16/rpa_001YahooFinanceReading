@@ -86,7 +86,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="1398.6666666666665,1641.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="1398.6666666666665,1768" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="True" Name="blEnabled" />
     </Sequence.Variables>
@@ -95,21 +95,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[blEnabled]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="520,1618.6666666666667" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[blEnabled]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="520,1745.3333333333333" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
       <ui:InterruptibleDoWhile.Body>
-        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,1496" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,1622.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Instagram • Messages" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1432" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Instagram • Messages" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1558.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1142" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1268.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -127,7 +127,8 @@
                       </ui:Target>
                     </ui:Activate.Target>
                   </ui:Activate>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ashley KinnearYou I wa…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
+                  <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="{x:Null}" Result="{x:Null}" DisplayName="Get Attribute" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257.3333333333333" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Version="V5" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Following'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="instagram.com/osjulian77701/following" CVScreenId="3c66a4d5-2eb4-4bea-a791-84ff4af0627f" ContentHash="xCPaO6bDzk-9lULHjiP_FA" CvElementArea="2136, 940, 158, 54" CvTextArea="2168, 957, 94, 25" CvTextArgument="Following" CvType="Button" DesignTimeRectangle="2170, 954, 93, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Following' type='' tag='DIV' class='_ap3a _aaco _aacw _aad6 _aade' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Following' /&gt;" Guid="c96cf587-cd5c-4459-81d1-b6ad0175d917" InformativeScreenshot="03f38388750a7cab2153902075f1febd.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/uJVD5Xx6ekySgDeoVL2-Pg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(1) Instagram' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -148,7 +149,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Conversation information'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click the 'Unfollow" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="instagram.com/osjulian77701/following" CVScreenId="75220969-6818-448b-bc28-3d8a1ff2e8f3" ContentHash="_8I1g5Zo00q9JtZyYTXaXg" CvTextArea="1872, 1109, 93, 19" CvTextArgument="Unfollow" CvType="Text" DesignTimeRectangle="1500, 1081, 840, 72" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Unfollow' tag='BUTTON' /&gt;" Guid="5a345884-2427-4d88-ae74-6c34bb400da3" InformativeScreenshot="1b379495b7d17cbda41ad98592fa8240.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/WvTBrn_8q0y-o8u1QvxluQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='(1) Instagram' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
@@ -163,36 +164,30 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete chat'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,234.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="instagram.com/direct/t/109418523787181" CVScreenId="385611f9-8832-48dd-8d9a-cda2c9eebd20" ContentHash="tvY-9LGPAEOpniwkZN0gYg" CvTextArea="3276, 2033, 122, 22" CvTextArgument="Delete chat" CvType="Text" DesignTimeRectangle="3277, 2030, 120, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Delete chat' aria-role='button' tag='DIV' /&gt;" Guid="5d477dc0-53e6-4d60-991a-77cd4f41887d" InformativeScreenshot="133e0ddbd94c271a535d84cd6252fd6b.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/6po7YKM6s0-vL1_3zTIt5A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Instagram • Messages' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="70b8c54d-5261-40c3-8bea-3104209852b0" Version="V5">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="instagram.com/direct/t/109418523787181" ContentHash="w5N2cnEm_E6GyFSngBjaOw" DesignTimeRectangle="1500, 999, 840, 72" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Delete' tag='BUTTON' /&gt;" Guid="4e2bfede-f1b5-4df3-bcc8-dd1e09dac751" InformativeScreenshot="47f6c0d0491beb2637aebd33200417f2.png" Reference="X6w18xFiuUeCo5R_BdYMOQ/4LdABbWyCkOfTUAKaJVFkA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Instagram • Messages' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
+                  <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'DIV'" sap:VirtualizedContainerService.HintSize="416,143.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2110b0f2-9dac-4a50-a29a-6b6c262af934" InformativeScreenshot="2d664a4086a9ccab5a0fd70721d83959" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='5' tag='DIV' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'DIV'" sap:VirtualizedContainerService.HintSize="416,188.66666666666666" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="pgdn" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0072f39c-72b3-4773-8593-d4ed3dcf6b4a" InformativeScreenshot="8f06a2c7bc7baa3317625876184fee3e" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='5' tag='DIV' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
                 </Sequence>
               </ActivityAction>
             </uix:NApplicationCard.Body>
